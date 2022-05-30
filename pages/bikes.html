@@ -6,37 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/gratis-png-pinon-bicicleta-engranajes-engranaje-bicicleta.png" type="image/x-icon">
     <link rel="stylesheet" href="../ccs/Style.css">
-    <title>RabbaBikes
-    </title>
+    <title>RabbaBikes</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
         
     <header>
         <nav class="navbar">
-        <p class="logo">RABBA BIKES</p>
+        <p class="logo"  data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center">RABBA BIKES</p>
             <ul class="menu">
-                <li><a class="Bikes" href="./bikes.html">Bikes</a></li>
-                <li><a class="home" href="../index.html">Home</a></li>    
-                <li><a class="contactanos" href="./Contactanos.html">Contactanos</a></li>
-                <li><a class="Nosotros" href="./nosotros.html">Nosotros</a></li>
-                <li><a class="Diseños"href="./Diseños.html">Diseños</a></li>
+                <li><a class="Bikes" href="./bikes.html">BIKES</a></li>
+                <li><a class="home" href="../index.html">HOME</a></li>    
+                <li><a class="contactanos" href="./Contactanos.html">CONTACTANOS</a></li>
+                <li><a class="Nosotros" href="./nosotros.html">NOSOTROS</a></li>
+                <li><a class="Diseños"href="./Diseños.html">DISEÑOS</a></li>
             </ul>    
         </nav>
     </header> 
 
 
 <main class="conteiner">
-        <h1 class="modelos"> 
-           Modelos
-        </h1>
+        <h1 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000"> Modelos</h1>
 
     <section class="principal">
         <img class="imagen" src="../imagenes/maxresdefault.jpg" alt="Bike Fixed">
+        <p>Fixed</p>
         <img class="imagen1"src="../imagenes/matt-jones-prueba-marin-san-quentin-hardtail.avif">
+        <p>Downhill</p>
     </section>
      <section class="principal3">
          <img class="imagen3" src="../imagenes/images.jpg">
+         <p>Ruta</p>
          <img class="imagen4" src="../imagenes/CargoBike1600-770x513.jpg">
+         <p>Cargo Bikes</p>
      </section>
 
 </main>
@@ -51,6 +54,9 @@
                    
             </div>    
     </footer>
-                
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>              
 </body>
 </html>

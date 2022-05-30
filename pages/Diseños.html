@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../ccs/Style.css">
-    <title>RabbaBikes
-    </title>
+    <title>RabbaBikes</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
 </head>
 <body>
         
     <header>
         <nav class="navbar">
-        <p class="logo">RABBA BIKES</p>
+        <p class="logo"  data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center">RABBA BIKES</p>
             <ul class="menu">
-                <li><a class="Diseños" href="./Diseños.html">Diseños</a></li>
-                <li><a class="home" href="../index.html">Home</a></li>    
-                <li><a class="contactanos" href="./Contactanos.html">Contactanos</a></li>
-                <li><a class="Bikes" href="./bikes.html">Bikes</a></li>
-                <li><a class="Nosotros"href="./nosotros.html">Nosotros</a></li>
+                <li><a class="Diseños" href="./Diseños.html">DISEÑOS</a></li>
+                <li><a class="home" href="../index.html">HOME</a></li>    
+                <li><a class="contactanos" href="./Contactanos.html">CONTACTANOS</a></li>
+                <li><a class="Bikes" href="./bikes.html">BIKES</a></li>
+                <li><a class="Nosotros"href="./nosotros.html">NOSOTROS</a></li>
             </ul>    
         </nav>        
     </header>
 <main class="conteiner"> 
-        <section class="hs">
-         <h1 class="titulo2"> Diseños e ingenieria </h1>
+        <section class="hs" data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+         <h1 > Diseños e ingenieria </h1>
          <h2>Tallas de la S al XL </h2>
          <h3>Planos Mountan bike, ruta y fixed </h3>
         </section>
@@ -36,6 +39,9 @@
          
               <img class="imagen8" src="../imagenes/bici.png">
         </section>
+        
+         
+       
 
 </main>
   
@@ -51,6 +57,9 @@
         </div>    
 </div>
 </footer>
-    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
 </body>
 </html>
