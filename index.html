@@ -13,27 +13,44 @@
 <body>   
     <header>
         
-        <nav class="navbar">
-            <p class="logo"  data-aos="fade-up"
-            data-aos-anchor-placement="bottom-center">RABBA BIKES</p>
-            <ul class="menu">
-              <li> <a class="home" href="./index.html">HOME</a></li>           
-                <li> <a class="contactanos" href="./pages/Contactanos.html">CONTACTANOS</a></li>
-                <li> <a class="Bikes" href="./pages/bikes.html">BIKES</a></li>    
-                <li> <a class="Nosotros" href="./pages/nosotros.html">NOSOTROS</a> </li>
-                <li> <a class="Diseños" href="./pages/Diseños.html">DISEÑOS</a> </li>
-            </ul>
-        </nav>
-     </header>   
+      <nav class="navbar">
+        <article class="col-lg-6">
+          <p class="logo"  data-aos="fade-up"
+          data-aos-anchor-placement="bottom-center"> <strong>RABBA </strong> BIKES</p>
+        </article>
+   <nav class="navbar navbar-expand-lg bg-light">
+   <article class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><strong>HO</strong>ME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   <article>
+      <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <section class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./pages/Contactanos.html"> <strong>CONTACT</strong>ANOS</a>
+          <a class="nav-link" href="./pages/Diseños.html"><strong>DIS</strong>EÑOS</a>
+          <a class="nav-link" href="./pages/bikes.html"><strong>BIK</strong>ES</a>
+          <a class="nav-link" href="./pages/nosotros.html"><strong>NOSO</strong>TROS</a>
+        </section>
+      </article>
+  </nav>
+  </header>
 
-<main class="conteiner" >  
-    <h1 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000" class="display-1"> Mejor en dos ruedas! </h1>
-      <iframe class="video"src="https://www.youtube.com/embed/QHOlnQlTmMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
-      <p  class="texto" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500" >  Nos encontramos en Resistencia Chaco, somos fabricantes y brindamos
-        al usuario que realice sus ideas mas locas al contruir una bicicleta. 
-        Bridamos soporte con la ingenieria, damos consejos para poder desarrollarla 
-        sin problemas.</p>
-      
+<main class="container" >  
+        <section class="row justify-content-evenly">
+              <article >
+                 <h1 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000" class="display-1"> Mejor en dos ruedas! </h1>
+              </article>
+               <article class="col-lg-6">
+                  <iframe class="video"src="https://www.youtube.com/embed/QHOlnQlTmMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+              </article>
+               <article class="col-lg-4">
+                   <p  class="texto" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500" > <strong>Nos</strong> encontramos en <strong>Resistencia Chaco</strong>, somos fabricantes brindamos
+                    al usuario que realice sus ideas mas locas al construir una bicicleta. 
+                    Bridamos soporte con la ingenieria, damos consejos para poder desarrollarla 
+                    sin problemas.</p>
+               </article>
+         </section>
     
 </main>
 
@@ -51,6 +68,8 @@
   </div>
 </footer>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/bootstrap.bundle.js">
+</script>
 <script>
   AOS.init();
 </script>

@@ -13,35 +13,68 @@
 <body>
         
     <header>
-        <nav class="navbar">
-        <p class="logo"  data-aos="fade-up"
-        data-aos-anchor-placement="bottom-center">RABBA BIKES</p>
-            <ul class="menu">
-                <li><a class="Bikes" href="./bikes.html">BIKES</a></li>
-                <li><a class="home" href="../index.html">HOME</a></li>    
-                <li><a class="contactanos" href="./Contactanos.html">CONTACTANOS</a></li>
-                <li><a class="Nosotros" href="./nosotros.html">NOSOTROS</a></li>
-                <li><a class="Diseños"href="./Diseños.html">DISEÑOS</a></li>
-            </ul>    
-        </nav>
+        
+      <nav class="navbar">
+        <article class="col-lg-6">
+          <p class="logo"  data-aos="fade-up"
+          data-aos-anchor-placement="bottom-center"> <strong>RABBA </strong> BIKES</p>
+        </article>
+   <nav class="navbar navbar-expand-lg bg-light">
+   <article class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><strong>HO</strong>ME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   <article>
+      <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <section class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="../pages/Contactanos.html"> <strong>CONTACT</strong>ANOS</a>
+          <a class="nav-link" href="../pages/Diseños.html"><strong>DIS</strong>EÑOS</a>
+          <a class="nav-link" href="../pages/bikes.html"><strong>BIK</strong>ES</a>
+          <a class="nav-link" href="../pages/nosotros.html"><strong>NOSO</strong>TROS</a>
+        </section>
+      </article>
+  </nav>
     </header> 
 
 
-<main class="conteiner">
-        <h1 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000" class="display-3"> Modelos</h1>
+<main class="container">
+        <h1 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000" class="display-3"> Bikes</h1>
 
-    <section class="principal">
-        <img class="imagen" src="../imagenes/maxresdefault.jpg" alt="Bike Fixed">
-        <p>Fixed</p>
-        <img class="imagen1"src="../imagenes/matt-jones-prueba-marin-san-quentin-hardtail.avif">
-        <p>Downhill</p>
-    </section>
-     <section class="principal3">
-         <img class="imagen3" src="../imagenes/images.jpg">
-         <p>Ruta</p>
-         <img class="imagen4" src="../imagenes/CargoBike1600-770x513.jpg">
-         <p>Cargo Bikes</p>
-     </section>
+    
+     <section class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <section class="card">
+            <img src="../imagenes/maxresdefault.jpg" class="card-img-top" alt="...">
+            <article class="card-body">
+              <h5 class="card-title">Piñon Fijo / Fixed</h5>
+              <p class="card-text">Las bicicletas fixie, también denominadas bicicletas de piñón fijo, son bicis de una sola marcha, de piñón fijo, y sin punto muerto, por lo que se debe avanzar, frenar y dar marcha atrás con el uso de los pedales. La rueda de atrás gira cuando giran los pedales. Si pedaleas hacia delante, avanzas; si paras los pedales, frenas y si pedaleas hacia atrás, irás marcha atrás. Esto requiere de un entrenamiento añadido que la bicicleta con piñón libre no lo necesita. No obstante, las bicicletas fixie tienen muchísimas ventajas.</p>
+            </article>
+          </section>
+        </div>
+        <article class="col">
+          <section class="card">
+            <img src="../imagenes/matt-jones-prueba-marin-san-quentin-hardtail.avif" class="card-img-top" alt="...">
+            <section class="card-body">
+              <h5 class="card-title">Downhill o descenso</h5>
+              <p class="card-text">Es la modalidad más salvaje del mountain bike y en ella se busca bajar lo más rápido posible por un circuito en montaña. Estas bicis son las que más pesadas y las de más recorrido. Para subir hasta el punto de inicio se utilizan remontes mecánicos o ayuda de vehículos.</p>
+            </article>
+        <div class="col">
+          <section class="card">
+            <img src="../imagenes/images.jpg" class="card-img-top" alt="...">
+            <article class="card-body">
+              <h5 class="card-title">bicicletas de ruta</h5>
+              <p class="card-text">Las bicicletas de ruta o de carreras son bicicletas diseñadas para la velocidad. Sus características están pensadas para llevarte tan lejos y tan rápido como tus piernas lo permitan</p>
+            </section>
+          </div>
+        <div class="col">
+          <section class="card">
+            <img src="../imagenes/CargoBike1600-770x513.jpg" class="card-img-top" alt="...">
+            <article class="card-body">
+              <h5 class="card-title">Cargo Bikes</h5>
+              <p class="card-text">Construidas para transportar cargas pesadas, las bicicletas de carga o cargo bikes fueron una vez la herramienta exclusiva de mensajeros y servicios de entrega en la ciudad, pero ahora están siendo acogidas por familias con niños pequeños que buscan una manera de convertir los quehaceres cotidianos en una aventura.</p>
+            </section>
+          </div>
 
 </main>
 
@@ -58,6 +91,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script>              
+    </script> 
+    <script src="../js/bootstrap.bundle.js">
+    </script>             
 </body>
 </html>
