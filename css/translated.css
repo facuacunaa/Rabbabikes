@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+/* header*/
+.navbar {
+  justify-content: flex-end;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px; }
+  .navbarlogo {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 0px;
+    color: black; }
+  .navbar-expand-lg .bg-light {
+    border-style: solid;
+    border-radius: 20px; }
+    .navbar-expand-lg .bg-light-toggler {
+      padding: 2px;
+      margin-right: 15px; }
+
+/*index*/
+
+.container {
+  height: auto;
+  padding-bottom: 20vh;
+  background-image: url(../imagenes/topography.svg);
+  box-shadow: 0 8px 32px 0 rgba(216, 51, 241, 0.37);
+  border-radius: 30px; }
+  .container-fluid {
+    background-color: violet;
+    border-radius: 20px; }
+   h1 {
+    font-size: 40px;
+    color: black;
+    width: 100%;
+    max-width: 750px;
+    height: 30px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    font-family: fantasy; }
+    .video {
+    width: 100%;
+    max-width: 600px;
+    max-width: auto;
+    height: 300px;
+    margin: 20px;
+    padding-left: 0;
+    border-radius: 20px;
+    box-shadow: 5px 8px 30px magenta; }
+  .texto {
+    grid-column: 6/10;
+    grid-row: 4/5;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px 50px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(216, 79, 240, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: black; }
+
+/* footer ...............................................................................*/
+.pie-pagina {
+  width: 100%;
+  padding: 20px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .pie-pagina a {
+    text-decoration: none;
+    color: magenta; }
