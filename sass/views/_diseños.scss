@@ -1,0 +1,44 @@
+/** diseños*/
+
+
+    .conteiner.hs {
+    grid-column: 3/6;
+    grid-row: 2/3;
+    padding-bottom: 50px;
+
+    }
+
+    &card-group{
+    box-shadow: 0 8px 32px 0 rgba(216, 79, 240, 0.37);
+    border-radius: 20px;}
+
+
+    &principal2 .img-fluid{
+    width: 800px;}
+ 
+
+    &info-content .texto{
+    grid-column: 4/6;
+    width: auto;
+    font-size: auto;
+    height: 100px;
+    padding: 20px;}
+
+
+
+    &info-content2 {
+    max-width: 1000px;
+    width: 100%;
+    max-height: 500px;
+    height:100% ;
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba(216, 79, 240, 0.37);
+}
+
+
+

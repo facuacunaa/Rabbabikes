@@ -1,36 +1,36 @@
   // //index///////
-.container{
+.container {
     height: auto;
     padding-bottom: 20vh;
     background-image: url(../imagenes/topography.svg);
     box-shadow: 0 8px 32px 0 rgba(216, 51, 241, 0.37);
-    border-radius: 30px;}
+    border-radius: 30px;
+     
+   }
 
-    &-fluid{
-        background-color:violet;
-        border-radius: 20px;
+    
+      
     
 
          &h1 {
-            font-size: 40px;
-            color: black;
+            font-size: var(--font-size);
+            color: var(primary);
             width: 100%;
             max-width: 750px;
             height: 30px;
             padding-top: 20vh;
             padding-bottom: 20vh;
-            font-family: fantasy;
+            font-family: fantasy;}
         
 
          &video{
             width:100%;
-            max-width:600px;
             max-width: auto;
             height: 300px;
             margin: 20px;
             padding-left: 0;
             border-radius: 20px;
-            box-shadow: 5px 8px 30px magenta;
+            box-shadow: 5px 8px 30px magenta;}
         
 
           &texto{
@@ -49,11 +49,36 @@
             -webkit-backdrop-filter: blur( 20px );
              border-radius: 10px;
              border: 1px solid rgba( 255, 255, 255, 0.18 );
-             color: black;
+             color: var(primary);}
 
-              }  
+              
     
-            }
-        }
-       
-    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

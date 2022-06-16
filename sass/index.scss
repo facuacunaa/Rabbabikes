@@ -1,4 +1,8 @@
 @import "./misc/normalize.scss";
+@import "./misc/variables";
 @import "./partials/header.scss";
 @import "./views/home.scss";
+@import"./views/diseños";
+@import"./views/contactos.scss";
 @import "./partials/footer.scss";
+@import"./partials/mediaqueris.scss"
