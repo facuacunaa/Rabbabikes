@@ -1,25 +1,35 @@
-/* header*/   
+/******************** HEADER****************************************/
 .navbar{
     
     justify-content: flex-end;
     border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 30px;
+    .logo{
+      font-size: 18px;
+      padding-left: 10px;
+      padding-right: 0px;
+      color: black;
+    }
+    .navbar-expand-lg .bg-light{
+      border-style: solid;
+      border-radius: 20px;
+    }
+      .container-fluid{
+        background-color:violet;
+        border-radius: 20px;}
 
-      &logo{
-       font-size: 18px;
-       padding-left: 10px;
-       padding-right: 0px;
-       color: black;}
-    
-       &-expand-lg .bg-light{
-        border-style: solid;
-        border-radius: 20px;
+        .navbar-toggler {
+          padding: 2px;
+          margin-right: 15px;
+      }
+      a{
+        text-decoration: none;
+        color: whitesmoke;
+        cursor: pointer;
+      }
 
-       &-toggler {
-       padding: 2px;
-       margin-right: 15px;
      }
-   }
-}
-    
+
+
+     

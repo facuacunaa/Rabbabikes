@@ -1,58 +1,53 @@
-/* CONTACTANOS */
-
-
-
-    .conteiner .formulario{
-      grid-column: 5/8;
-      grid-row: 3/7;
-       height: 300px;
-       flex-direction: column;
-       align-items: center;
-       padding-top: 150px;
-       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       font-size: 30px;}
-       @mixin flex-colum-center{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-       }
-       .box{
-       @include flex-colum-center;
-       }
-
-      &nombre{
-        padding-bottom: 30px;
+/**************************************** CONTACTANOS********************************************/
+.formulario{
     
-
-      &text1{
-        width: auto;
-        height: 30px;
-
-      &email{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    .nombre{
+        padding-bottom: 30px;
+        
+    }
+    @mixin tamaño ($ancho,$alto,){
+        width: $ancho;
+        height: $alto;
+       
+        
+    }
+    .text1{
+        @include tamaño(auto,30px) 
+        
+    }
+    .email{
         padding-top: 60px;
         padding-bottom: 30px;
-
-      &text2{
+    }
+    .text2{
+        @include tamaño(auto,30px) 
+    }
+    .mensaje{
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+    .text3 {
+        @include tamaño(auto,250px) 
+        
+        padding-bottom: 50px;
+    }
+    .text4{
+        @include tamaño(auto,40px) 
         width: auto;
-        height: 30px;
-
-      &mensaje{
-       padding-bottom: 30px;
-       padding-top: 50px;
-
-    &text3 {
-       width: auto;
-       height: 250px;
-       padding-bottom: 50px;
-
-     &text4{
-       width: auto;
         height: 40px;
-     }
     }
+    
 }
-      }
-    }
-}
-      }
+
+
+
+
+
     

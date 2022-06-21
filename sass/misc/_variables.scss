@@ -1,5 +1,30 @@
-:root{
-    --color-primario:#000000;
-    --bg-primario: #f110d3;
-    --font-size:40px ;
+$color:magenta;
+$font-sized:2em;
+$font-family:Sans-serif;
+
+
+
+%fondo  {
+
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(216, 79, 240, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: black;
+    
+}
+
+%h1{
+    font-size: 3em;
+    color: black;
+    width: 100%;
+    max-width: 750px;
+    height: 30px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    font-family: fantasy;
+    text-align: center;
 }

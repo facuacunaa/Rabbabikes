@@ -4,18 +4,10 @@
     box-sizing: border-box;
 }
 */
-root:{
-    --color-primario:#000000;
-    --bg-primario: #f110d3;
-    --font-size:40px ;
-}
-
-    
-
-/* header///   
+ 
     
     
-
+*/header/*
 
 .navbar{
     
@@ -48,7 +40,7 @@ root:{
     margin-right: 15px;
 }
 
-/*
+
 .navbar .menu{
     grid-column: 2/ 9;
     display: flex;
@@ -80,27 +72,26 @@ root:{
  li:hover{
      font-size: 20px;
  }
-**/
+ .container-fluid{
+    background-color:violet;
+    border-radius: 20px;
+ }
  
 
     
 
 
 /* estilos main index ..........................................................*/
-*//*
-.container{
+ /* .container{
     height: auto;
     padding-bottom: 20vh;
     background-image: url(../imagenes/topography.svg);
     box-shadow: 0 8px 32px 0 rgba(216, 51, 241, 0.37);
-    border-radius: 30px;
+    border-radius: 30px; */
         
     
-}
-.container-fluid{
-    background-color:violet;
-    border-radius: 20px;
-}
+/* } 
+
 
 
  h1 {
@@ -151,11 +142,11 @@ root:{
     color: black;
     
     
-}
+} */
 
 /**** Contactanos */
 
-.conteiner .formulario{
+/* .conteiner .formulario{
     grid-column: 5/8;
     grid-row: 3/7;
     height: 300px;
@@ -204,7 +195,7 @@ root:{
 
  /** diseños*/
 
- .container .hs {
+ /* .container .hs {
      grid-column: 3/6;
      grid-row: 2/3;
      padding-bottom: 50px;
@@ -249,7 +240,7 @@ root:{
 
 /**CONTACTANOS/**/
 
-.info-content2 .textoo{
+/* .info-content2 .textoo{
     max-width: 100%;
     width: 1000px;
     font-size: auto;
@@ -265,13 +256,13 @@ root:{
     padding-bottom: 20px;
     width: auto;
     font-size: 15px;
-
+ */
 
 }
 
                  /* Bikes*/             
 
-
+/* 
     
 .imagen {
     width: 400;
@@ -324,11 +315,8 @@ root:{
 }
 
 
-    
-    
-
-
-
+     */
+ 
 
 /* footer ...............................................................................
 .pie-pagina{
@@ -350,7 +338,7 @@ root:{
 */
 /** MEDIA QUERIS------------------------------------------------------*/
   
-
+/* 
 @media screen and (max-width:320px) {
     .body{
         width: 100%;
@@ -660,7 +648,7 @@ root:{
     }
     }
         
-    
+     */
 
     
     
