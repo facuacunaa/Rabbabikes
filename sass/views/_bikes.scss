@@ -1,12 +1,15 @@
  /*************************BIKES*******************/
-.card{
+.conteiner{
+
+
+   .card{
    @extend %fondo;
 } 
     .card-title{
         color: black;
         text-align: center;
     }     
-
+}
 
     
 

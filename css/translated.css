@@ -4,7 +4,7 @@
   margin: 0px;
   box-sizing: border-box; }
 
-.texto, .container .card-group, .info-content2 .card-body, .card {
+.texto, .container .card-group, .info-content2 .card-body, .conteiner .card {
   margin-left: 5px;
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(216, 79, 240, 0.37);
@@ -115,7 +115,7 @@
   color: black; }
 
 /*************************BIKES*******************/
-.card-title {
+.conteiner .card-title {
   color: black;
   text-align: center; }
 
